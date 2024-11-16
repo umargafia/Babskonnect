@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Tiger Data",
-    "slug": "tigerdata",
+    "name": "Babskonnect",
+    "slug": "babskonnect",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#f9f9f9"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -20,15 +22,19 @@
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.tigerdata.tigerdata",
+      "package": "com.android.babskonnectng",
       "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": ["expo-secure-store"],
+    "plugins": [
+      "expo-secure-store"
+    ],
     "extra": {
-      "eas": {}
+      "eas": {
+        "projectId": "919b4cae-cb28-4232-b636-4bb6b0662829"
+      }
     }
   }
 }

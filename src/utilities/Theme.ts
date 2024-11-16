@@ -1,7 +1,7 @@
 import { Dimensions, Platform } from 'react-native';
 
 export const ColorConstant = {
-  primary: '#104167',
+  primary: '#524101FF',
   black: '#424242',
   red: '#c5221f',
   gray: '#62656b',

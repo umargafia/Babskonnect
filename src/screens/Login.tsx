@@ -29,7 +29,7 @@ export default function Login() {
           backgroundColor="white"
         >
           <Image
-            source={require('../../assets/logo.png')}
+            source={require('../../assets/logo.jpg')}
             style={styles.image}
             contentFit="contain"
           />

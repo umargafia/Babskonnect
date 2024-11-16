@@ -1,4 +1,4 @@
-const baseUrl = 'https://tigerdata.com.ng/';
+const baseUrl = 'https://babsapi.com.ng/';
 
 type props = {
   home: string;
